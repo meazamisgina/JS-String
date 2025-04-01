@@ -6,7 +6,7 @@ console.log(capitalizedinfo);
 // 2. Add a character at the third index
 let greeting = "hello";
 let char = "X";
-let modified= greeting.slice(0, 3) + char + greeting.slice(3);
+let modified = greeting.slice(0, 3) + char + greeting.slice(3);
 console.log(modified);
 
 // 3. Count occurrences of "hello"
@@ -24,8 +24,7 @@ let firstThreeChar = myLanguage.slice(0, 3);
 console.log(firstThreeChar);
 
 // 6. Sort characters in ascending order
-let myWord = "hello";
-let sorted = myWord.split('').sort().join('');
+let sorted = greeting.split('').sort().join('');
 console.log(sorted);
 
 // 7. Remove all spaces
